@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background: linear-gradient(#E5E059 0%, #27ae60 100%);
+    background-repeat: no-repeat;
+}
+
+#icon {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+}
+
+img {
+    width: 300px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#p {
+    font-size: 30px;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    float: right;
+    margin-top: -400px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.links:hover {
+    background-color: cyan;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+h1 {
+    font-family: inherit;
+    font-size: 40px;
+    font-variant: small-caps;
+}
